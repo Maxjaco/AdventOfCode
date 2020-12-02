@@ -3,7 +3,7 @@ from itertools import combinations
 def main():
 
     lines = []
-    for s in open("Day1/testdata/expenseReport.txt"):
+    for s in open("Day1/testData/expenseReport.txt"):
         s = int(s.strip())
         lines.append(s)
 
