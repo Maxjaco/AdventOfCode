@@ -3,7 +3,7 @@ def main():
     counter1  = 0 #Solution1
     counter2  = 0 #Solution2
 
-    with open('testData/passwords.txt', 'r') as file:
+    with open('Day2/testData/passwords.txt', 'r') as file:
         for i in file:
             input = i.split(': ')
             password = input[-1]
