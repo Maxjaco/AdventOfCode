@@ -1,7 +1,7 @@
 from itertools import starmap
 from math import prod
 
-grid = [list(x.strip()) for x in open('Day3/testData/inputdata.txt').readlines()]
+grid = [list(x.strip()) for x in open('Day3/testData/trees.txt').readlines()]
 
 def trajectory(a, b):
     counter = 0
@@ -17,3 +17,4 @@ def trajectory(a, b):
 
 print('Solution1 :', prod(starmap(trajectory, [(1, 3)]))) #Part1
 print('Solution2 :', prod(starmap(trajectory, [(1, 1), (1, 3), (1, 5), (1, 7), (2, 1)]))) #Part2
+
